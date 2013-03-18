@@ -30,21 +30,28 @@ public class OTAActivity extends Activity {
 	    String RomInc= android.os.Build.VERSION.INCREMENTAL;
 	    String BuildDate = "29991231";
 	    
-	    int strPos = RomInc.indexOf("2012");
+	    int strPos = RomInc.indexOf("2013");
 	    if (strPos >= 0)
 	    {	
 	    	BuildDate=RomInc.substring(strPos, strPos+8); 
 	    }
-	    else  //2012 not found, try for 2013
+	    else  //2013 not found, try for 2014
 	    {
-	    	strPos = RomInc.indexOf("2013");
+	    	strPos = RomInc.indexOf("2014");
 	    	if (strPos >= 0)
 		    {	
 		    	BuildDate=RomInc.substring(strPos, strPos+8); 
 		    }
-	    	else // 2013 not found either, try 2014
+	    	else // 2014 not found either, try 2015
 		    {
-		    	strPos = RomInc.indexOf("2014");
+		    	strPos = RomInc.indexOf("2015");
+		    	if (strPos >= 0)
+			    {	
+			    	BuildDate=RomInc.substring(strPos, strPos+8); 
+			    }
+	    	else // 2015 not found either, try 2016
+		    {
+		    	strPos = RomInc.indexOf("2016");
 		    	if (strPos >= 0)
 			    {	
 			    	BuildDate=RomInc.substring(strPos, strPos+8); 
