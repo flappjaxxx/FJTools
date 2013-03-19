@@ -49,13 +49,6 @@ public class OTAActivity extends Activity {
 			    {	
 			    	BuildDate=RomInc.substring(strPos, strPos+8); 
 			    }
-	    	else // 2015 not found either, try 2016
-		    {
-		    	strPos = RomInc.indexOf("2016");
-		    	if (strPos >= 0)
-			    {	
-			    	BuildDate=RomInc.substring(strPos, strPos+8); 
-			    }
 		    }
 	    }   
 
