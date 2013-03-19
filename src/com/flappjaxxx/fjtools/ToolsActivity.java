@@ -15,8 +15,7 @@ public class ToolsActivity extends TabActivity {
 
 	public static final int TAB_APPS = 0;
 	public static final int TAB_GPS = 1;
-	public static final int TAB_EXTRAS = 2;
-	public static final int TAB_CONSOLE = 3;	
+	public static final int TAB_CONSOLE = 2;	
 	
     private static ToolsActivity INSTANCE = null;     
 
@@ -62,13 +61,13 @@ public class ToolsActivity extends TabActivity {
 	    intent = new Intent().setClass(this, DisplayActivity.class);
 	    spec = tabHost.newTabSpec("display").setIndicator("DPI")
 	                  .setContent(intent);
-	    tabHost.addTab(spec); */
+	    tabHost.addTab(spec);
 
 	 // Extras tab
 	    intent = new Intent().setClass(this, ExtrasActivity.class);
 	    spec = tabHost.newTabSpec("extras").setIndicator("Extras")
 	                 .setContent(intent);
-	  tabHost.addTab(spec);
+	  tabHost.addTab(spec);  */
 	    
 	 
 	    // Console tab
