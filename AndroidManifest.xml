@@ -31,7 +31,6 @@
 	           android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@style/MyTheme" android:launchMode="singleTask" android:clearTaskOnLaunch="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-               <!-- <category android:name="android.intent.category.LAUNCHER" />  -->
             </intent-filter>
         </activity>
     </application>
