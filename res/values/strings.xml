@@ -41,24 +41,18 @@
     <string-array name="apps_actions_array">
         <item>yesadblock</item>
         <item>noadblock</item>
-        <item>netflixblk</item>
-        <item>novalauncher</item>
-        <item>apexlauncher</item>
-        <item>adwlauncher</item>
         <item>cwmrec6</item>
         <item>cwmtouch</item>
         <item>twrp</item>
+        <item>twrpmax</item>
     </string-array>
     <string-array name="apps_descriptions_array">
         <item>Enable Ad Blocking</item>
         <item>Disable Ad Blocking</item>
-        <item>Install Netflix Black Rotation Mod</item>
-        <item>Install Nova Launcher</item>
-        <item>Install Apex Launcher</item>
-        <item>Install ADW Launcher</item>
-        <item>Flash Clockwork Mod Recovery</item>
+        <item>Flash CWM Recovery</item>
         <item>Flash CWM Touch Recovery</item>
         <item>Flash TWRP2 Recovery</item>
+        <item>Flash Patched TWRP2 Recovery</item>
     </string-array>   
      <string-array name="extras_actions_array">
         <item>cwmrec6</item>
