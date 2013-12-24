@@ -41,6 +41,7 @@
     <string-array name="apps_actions_array">
         <item>yesadblock</item>
         <item>noadblock</item>
+        <item>xposed</item>
         <item>cwmrec6</item>
         <item>cwmtouch</item>
         <item>twrp</item>
@@ -49,6 +50,7 @@
     <string-array name="apps_descriptions_array">
         <item>Enable Ad Blocking</item>
         <item>Disable Ad Blocking</item>
+        <item>Install Xposed Framework Installer</item>
         <item>Flash CWM Recovery</item>
         <item>Flash CWM Touch Recovery</item>
         <item>Flash TWRP2 Recovery</item>
